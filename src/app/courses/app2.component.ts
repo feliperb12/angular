@@ -11,8 +11,8 @@ ngOnInit(): void{
  this.courses=[
   {
     id: 1,
-    name: 'felipe',
-    imageUrl:'',
+    name: 'Good of War',
+    imageUrl:'assets/images/forms.png',
     price: 293.3,
     code: 'XPS-986',
     duration:120,
@@ -22,7 +22,7 @@ ngOnInit(): void{
   },
   {
     id: 2,
-    name: 'lipe',
+    name: 'Day-Z',
     imageUrl:'',
     price: 300.3,
     code: 'XPT-246',
@@ -40,5 +40,4 @@ ngOnInit(): void{
 
 
 
-  
-  
+

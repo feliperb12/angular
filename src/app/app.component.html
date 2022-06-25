@@ -1,7 +1,51 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <span>Tema do Projeto</span>
-  </mat-toolbar-row>
-</mat-toolbar>
-<app-bug></app-bug>
 
+  <mat-toolbar >
+    <mat-toolbar-row>
+      <img src="assets/images/controle.png" class="img-fluid" alt="Imagem responsiva">
+      <span>ZOUP GAMES</span>
+      <div class="pontos">
+      <button class="pontos" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+    </div>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>dialpad</mat-icon>
+          <span>Redial</span>
+        </button>
+        <button mat-menu-item disabled>
+          <mat-icon>voicemail</mat-icon>
+          <span>Check voice mail</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>notifications_off</mat-icon>
+          <span>Disable alerts</span>
+        </button>
+      </mat-menu>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4">
+    <div class="img-thumbnail">
+      <p class="letter">THE LAST OF US II</p>
+      <a href="https://github.com/feliperb12" title="Abrir descrição completa">
+        <img src="assets/images/thelast.png"  alt="Lights" style="width:100%">
+      </a>
+      <a href="/compras">
+        <div class="d-grid gap-2">
+          <button id="btn2" class="btn btn-primary" type="button" title="Clicar para comprar">Comprar R$250,00
+            <img class="coracao" src="assets/images/coracao.png" >
+          </button>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<div ng-view>
+
+</div>

@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css'
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import'../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+@include mat-core();
+
+body{
+  background-color: rgb(238, 238, 216);
+}
+
+
+
+
+
+
 
 
 
